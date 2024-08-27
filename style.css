@@ -1,0 +1,417 @@
+html {
+    scroll-behavior: smooth;
+  }
+  
+body {
+    background-color: purple;
+    margin: 0px;
+    padding: 0px;
+}
+
+#nav a {
+    text-decoration: none;
+    color: white;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#nav {
+    background-color: hsl(236, 69%, 24%,);
+    position: fixed;
+    height: 80px;
+    width: 100%;
+}
+
+#nav img {
+    width: 60px;
+    height: 60px;   
+    margin-top: 5px;
+    padding: 0px;
+}
+
+#nav li {
+    position: fixed;
+    display: inline-block;
+    list-style: none;
+    text-align: center;
+    position: relative;
+    padding: 0px;
+    margin: 0px;
+}
+
+#nav ul {
+    right: 0;
+    padding: 0px;
+    margin: 0px;
+}
+
+#nav #nav_left {
+    padding-top: 5px;
+    left: 20px;
+}
+
+#nav #nav_right1 {
+    padding-top: 10px;
+    position: absolute;
+    right: 470px;
+}
+
+#nav #nav_right2 {
+    padding-top: 10px;
+    position: absolute;
+    right: 290px;
+}
+
+#nav #nav_right3 {
+    padding-top: 10px;
+    position: absolute;
+    right: 100px;
+}
+
+
+#hero {
+    background-color: #02084b;
+    margin: 0px;
+    padding: 0px;
+    height: 1000px;
+    display: flex;
+}
+
+
+#hero_block1 {
+    background-color: hsl(0, 100%, 50%,);
+    width: 60%;
+    height: 100%;
+}
+
+#hero_block1 #hero_div_top {
+    margin-top: 25%;
+    padding: 0px;
+    margin-bottom: 0px;
+}
+
+/* #hero_block1 #hero_div_bottom {
+    background-color: cyan;
+} */
+
+#hero_block1 #hero_div_bottom img{
+    height: 30px;
+    width: 30px;
+    margin: 10px;
+    border-radius: 4px;
+    margin-top: 120px;
+}
+
+#hero_block1 #hero_div_bottom img:hover{
+    cursor: pointer;
+}
+
+
+#facebook {
+    padding-left: 80%;
+}
+
+#hero_block1 h1 {
+    font-size: 60px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-left: 10%;
+    margin-bottom: 0px;
+}
+
+#hero_block1 h2 {
+    color: whitesmoke;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-left: 30%;
+    font-size: 32px;
+    margin-top: 0px;
+    padding-top: 0px;
+}
+
+#hero_block1 h3 {
+    color: rgb(42, 42, 42);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-left: 50%;
+    font-size: 24px;
+    margin-top: 0px;
+    padding: 10px;
+    text-align: center;
+    background-color: #6257e3;
+    border-radius: 80px;
+    width: 240px;
+}
+
+
+
+#hero_block1 img {
+    height: 100px;
+    width: 100px;
+    margin-top: 40px;
+    margin-left: 20px;
+    padding-bottom: 0px;
+    margin-bottom: 0px;
+}
+
+
+
+#hero_block2 {
+    background-color: rgb(249, 33, 116,);
+    width: 40%;
+    height: 100%;
+}
+
+#hero_block2 img{
+    height: 400px;
+    width: 450px;
+    margin-top: 160px;
+    margin-left: 60px;
+    border-radius: 5%;
+}
+
+
+#about {
+    background-color: #02084b;
+    height: 1000px;
+    display: flex;
+}
+
+#about #about_block1 {
+    width: 60%;
+    height: 100%;
+    background-color: #02084b;
+}
+
+#about #about_block1 h1{
+    margin: 0px;
+    padding: 0px;
+    background-color: #f15d65;
+    color: whitesmoke;
+    text-align: center;
+    width: 500px;
+    height: 64px;
+    padding-top: 20px ;
+    padding-left: 40px;
+    padding-right: 40px;
+    border-radius: 10px;
+    font-size: 32px;
+    margin: auto;
+    margin-bottom: 16px;
+    margin-top: 100px;
+}
+
+#about_flex{
+    display: flex;
+}
+
+.about_left_box , .about_right_box{
+    width: 50%;
+    height: 100%;
+    /* text-align: center; */
+}
+
+
+
+#box_1 ,#box_2, #box_3, #box_4, #box_5, #box_6, #box_7 {
+    background-color: #6257e3;
+    color: rgb(236, 236, 236);
+    width: 300px;
+    height: 80px;
+    margin: auto;
+    font-size: 16px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    border-radius: 100px;
+    text-align: center;
+    margin-top: 20px;
+    padding-top: 0px;
+    border-width:0cm;
+    /* border-style: solid;
+    border-width: 1px; */
+}
+
+
+.about_right_box {
+    margin-top: 48px;
+}
+
+
+#box_1 ,#box_2, #box_3, #box_4 {
+    margin-left: 30%;
+}
+
+#box_5, #box_6, #box_7 {
+    margin-left: 0px;
+}
+
+
+
+
+#about #about_block2 {
+    width: 40%;
+    height: 100%;
+}
+
+#about #about_block2 h1 {
+    margin: 0px;
+    padding: 0px;
+    background-color: #f15d65;
+    color: whitesmoke;
+    text-align: center;
+    width: 200px;
+    height: 64px;
+    padding-top: 20px;
+    padding-left: 60px;
+    padding-right: 60px;
+    border-radius: 10px;
+    font-size: 32px;
+    margin: auto;
+    margin-bottom: 24px;
+    margin-top: 100px;
+
+}   
+
+#learn_more {
+    opacity: 0.6;
+    transition: 0.3s;
+    text-decoration: none;
+}
+
+#learn_more a {
+    text-decoration: none;
+    color: whitesmoke;
+}
+
+
+#learn_more:hover {
+    opacity: 1;
+}
+
+
+#about #about_block2 #about_content_box {
+    width: 85%;
+    height: 45%;
+    background-color: #6257e3;
+    margin: auto;
+    border-radius: 50px;
+}
+
+
+
+
+#about #about_block2 h2 {
+    /* background-color: azure; */
+    text-align: center;
+    color: whitesmoke;
+    font-size: 28px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+#about #about_block2 h3 {
+    background-color: #6257e3;
+    text-align: center;
+    color: whitesmoke;
+    font-size: 20px;
+    padding: 20px;
+
+}
+
+#title {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#desc {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-left: 50px;
+    margin-right: 50px;
+    text-align: justify;
+}
+
+
+#footer {
+    background-color: rgb(65, 64, 64);
+    color: whitesmoke;
+    height: 160px;
+    display: flex;
+    margin: auto;
+}
+
+#footer p {
+    margin-top: 80px;
+    padding-left: 15%;
+}
+
+#privacy {
+    margin-left: 100px;
+}
+
+#privacy:hover {
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+
+#footer img {
+    width: 24px;
+    height: 24px;   
+    padding: 0px;
+    margin-left: 10px;
+    margin-top: 76px;
+    border-radius: 10px;
+}
+
+#footer img:hover {
+    cursor: pointer;
+}
+
+
+
+/* Hover Animations CSS */
+
+
+/* Hover Navbar */
+#nav li {
+    cursor: pointer;
+    overflow: hidden;
+    transition: .3s;
+    opacity: .6;
+}
+
+
+#nav li:hover {
+    opacity: 1;
+  }
+
+
+
+/* Hover Buttons About*/
+
+.btn {
+    opacity: 0.6;
+    transition: 0.3s;
+
+}
+
+#about_content_box {
+    opacity: 0.9;
+    transition: 0.3s;
+}
+
+.btn:hover {
+    opacity: 1;
+}
+
+/* .about_content_box:hover {
+    opacity: 1;
+} */
+
+/* Hover Buttons Brightening About Box */
+
+.btn:hover{
+    #title {
+        opacity: 0;
+    }
+}
+
+#title {
+    text-decoration: underline;
+    font-style: italic;
+}
+
